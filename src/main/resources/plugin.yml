@@ -1,0 +1,6 @@
+name: HardcoreMultiplayer
+version: ${project.version}
+main: de.flash.spigot.hardcoremultiplayer.HardcoreMultiplayer
+api-version: 1.16
+authors: [ flash_btw ]
+description: plugin for hardcore multiplayer
