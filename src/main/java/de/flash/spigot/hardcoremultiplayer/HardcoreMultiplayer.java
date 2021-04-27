@@ -15,3 +15,7 @@ public final class HardcoreMultiplayer extends JavaPlugin {
         // Plugin shutdown logic
     }
 }
+
+//TODO: Add Ban on Death
+//TODO: Add Spectator mode on Death
+//TODO: Kick player after 5 minutes spectation time
