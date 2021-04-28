@@ -1,6 +1,6 @@
 package de.flash.spigot.hardcoremultiplayer;
 
-import de.flash.spigot.hardcoremultiplayer.events.BanOnDeath;
+import de.flash.spigot.hardcoremultiplayer.listeners.BanOnDeath;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class HardcoreMultiplayer extends JavaPlugin {
@@ -16,7 +16,4 @@ public final class HardcoreMultiplayer extends JavaPlugin {
         // Plugin shutdown logic
     }
 }
-
-//TODO: Add Ban on Death
-//TODO: Add Spectator mode on Death
 //TODO: Kick player after 5 minutes spectation time
