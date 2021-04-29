@@ -1,5 +1,6 @@
-package de.flash.spigot.hardcoremultiplayer.events;
+package de.flash.spigot.hardcoremultiplayer.listeners;
 
+import de.flash.spigot.hardcoremultiplayer.tasks.KickAfterTime;
 import org.bukkit.BanList;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -21,6 +22,5 @@ public class BanOnDeath implements Listener {
         String playerName = player.getName();
         Bukkit.getBanList(BanList.Type.NAME).addBan(playerName, "Tschau Kakao", null, null);
         player.setGameMode(GameMode.SPECTATOR);
-
     }
 }
